@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import CoreImage
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image1: UIImageView!
+    
+    @IBOutlet weak var image2: UIImageView!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
